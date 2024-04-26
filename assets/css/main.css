@@ -50,7 +50,7 @@ START: Theme Default CSS
   --pb-color-text-body: #6D6C79;
   --pb-color-theme-primary: #FB5252;
   --pb-color-theme-secondary: #57D288;
-  --pb-color-gradient-1: linear-gradient(81deg, #E8411D 0%, #FAAC52 100%);
+  --pb-color-gradient-1: linear-gradient(81deg, #6be81d 0%, #52faae 100%);
   --pb-color-gradient-2: linear-gradient(80deg, #47479F 0%, #9191D7 100%);
   --pb-color-grey-1: #F4F5F9;
   --pb-color-border-1: rgba(109, 108, 121, 0.2);
@@ -6888,6 +6888,113 @@ START: Theme Footer CSS
 .copyright-content .copy-list li:not(:last-of-type) {
   margin-right: 30px;
 }
+
+.client-section{
+  background: #5e43ff;
+  padding-top: 80px;
+  padding-bottom: 60px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.client-content h5{
+  font-size: 36px;
+  color: white;
+  font-weight: 600;
+  margin-bottom: 30px;
+  width: 77%;
+}
+.client-img{
+  text-align: center;
+  margin-top: 45px;
+}
+
+.client-img video{
+  width: 45%;
+  float: left;
+  border-radius: 3%;
+  margin-left: 25px;
+}
+.client-img video .vid2{
+  width: 40%;
+  float: right;
+  border-radius: 3%;
+}
+.client-content p{
+  color: white;
+}
+.client-content p img{
+  width: 15%;
+}
+
+
+@media (max-width: 600px){
+.client-section{
+  text-align: center;
+  border-radius: 15px;
+}
+.client-content h5{
+  width: fit-content;
+}
+.client-img video{
+  float: none;
+  width: 60%;
+}
+.client-img{
+  margin-top: 5%;
+}
+.carousel-container{
+  align-items: center;
+  justify-content: center;
+  margin-left: 12%;
+}
+.owl-theme{
+  text-align: center;
+}
+}
+
+.carousel-container {
+  width: 80%;
+  margin: 10 auto;
+  position: relative;
+}
+
+.carousel {
+  display: flex;
+  overflow-x: hidden;
+}
+
+.testimonial {
+  width: 100%;
+  padding: 2%;
+  text-align: center;
+}
+
+.controls {
+  margin-top: 10px;
+  text-align: center;
+}
+
+.prev-btn,
+.next-btn {
+  background-color: #5500ff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin: 0 5px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.prev-btn:hover,
+.next-btn:hover {
+  background-color: #5500ff;
+}
+
+/* Hide the prev button initially */
+.prev-btn {
+  display: none;
+}
+
 
 /* !END: Theme Footer CSS */
 
