@@ -50,7 +50,7 @@ START: Theme Default CSS
   --pb-color-text-body: #6D6C79;
   --pb-color-theme-primary: #FB5252;
   --pb-color-theme-secondary: #57D288;
-  --pb-color-gradient-1: linear-gradient(81deg, #6be81d 0%, #52faae 100%);
+  --pb-color-gradient-1: linear-gradient(90deg, #6401F7, #6401F7);
   --pb-color-gradient-2: linear-gradient(80deg, #47479F 0%, #9191D7 100%);
   --pb-color-grey-1: #F4F5F9;
   --pb-color-border-1: rgba(109, 108, 121, 0.2);
