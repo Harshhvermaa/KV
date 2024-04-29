@@ -4889,6 +4889,7 @@ START: Theme Project CSS
 }
 .project-box img {
   width: 100%;
+  border-radius: 15%;
 }
 .project-box .project-content {
   background-color: var(--pb-color-common-white);
