@@ -939,7 +939,7 @@ ul {
   padding: 20px 30px;
   text-transform: capitalize;
   transition: all 0.4s cubic-bezier(0.785, 0.135, 0.15, 0.86);
-  border: 1px solid var(--pb-color-theme-secondary);
+  border: 1px solid grey;
   border-radius: 30px;
   line-height: 1;
   position: relative;
@@ -6994,6 +6994,12 @@ START: Theme Footer CSS
 /* Hide the prev button initially */
 .prev-btn {
   display: none;
+}
+
+.pbpb{
+  padding: 3%;
+  padding-left: 7%;
+  padding-right: 7%;
 }
 
 
