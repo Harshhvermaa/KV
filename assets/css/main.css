@@ -1594,7 +1594,7 @@ START: Theme Header CSS
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
-    left: 25%;
+    left: 21%;
   }
   .mobile-side-menu .side-menu-head {
     display: flex;
