@@ -1566,7 +1566,8 @@ START: Theme Header CSS
     position: fixed;
     overflow-y: auto;
     top: 0;
-    right: 0;
+    /* right:0; */
+    left: -200%;
     width: 80%;
     -webkit-transform: translateX(100%);
     -ms-transform: translateX(100%);
@@ -1593,6 +1594,7 @@ START: Theme Header CSS
     -webkit-transform: translateX(0);
     -ms-transform: translateX(0);
     transform: translateX(0);
+    left: 25%;
   }
   .mobile-side-menu .side-menu-head {
     display: flex;
